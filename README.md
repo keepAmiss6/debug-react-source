@@ -1,6 +1,6 @@
 # 如何阅读react的源码？如何在react的源码中跟断点？
 - 一般我们的方法是在github上把react的源码文件下载下来，然后通过打包react、react-dom、scheduler文件生成编译后的文件；再通过创建软连接的方式链接调试
-- 但是我在实践中用的react17.0.2版本的源码，通过上诉的方法，一直报错，可能因为react的架构太庞大了，反正我是没有调通
+- 但是我在实践中(使用的react17.0.2版本的源码)，通过上诉的方法，一个错接着一个，可能因为react的架构太庞大了吧，总有些地方不对付。
 - 后来换了一种思路，在https://www.jsdelivr.com/package/npm/react?path=umd 上找到react的CDN，用它去链接调试，非常方便，具体操作如下
 # 使用react CDN调试react源码
 - 在https://www.jsdelivr.com/package/npm/react?path=umd下载对应的包
